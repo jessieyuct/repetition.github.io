@@ -1,0 +1,43 @@
+body {
+    font-family: 'Avenir', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .prompt-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .prompt-column {
+    flex: 1 0 33.33%;
+    padding: 10px;
+  }
+  
+  .prompt {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .prompt-column {
+      flex: 1 0 50%;
+    }
+  }
+  
+  /* Media query for even smaller screens */
+  @media screen and (max-width: 480px) {
+    .prompt-column {
+      flex: 1 0 100%;
+    }
+  }

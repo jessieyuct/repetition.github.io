@@ -59,10 +59,10 @@ def update_prompts():
 
     print("Prompts updated successfully!")
 
-# Schedule the script to run every Monday at 5:00 AM
-schedule.every().monday.at("05:00").do(update_prompts)
+## Schedule the script to run every Monday at 5:00 AM
+## schedule.every().monday.at("05:00").do(update_prompts)
 
 # Run the scheduled tasks indefinitely
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+##while True:
+  ##  schedule.run_pending()
+ ##   time.sleep(1)
